@@ -1,5 +1,6 @@
 package com.comunidadedevspace.imc
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -35,6 +36,20 @@ class ResultActivity : AppCompatActivity() {
         }
 
         tvClassificacao.text = classificacao
+
+        var corClassificacao: String = if (classificacao == "MAGREZA") {
+            "#FF6347"
+        } else if (classificacao == "NORMAL") {
+            "#3CB371"
+        } else if (classificacao == "SOBREPESO") {
+            "#E9967A"
+        } else if (classificacao == "OBESIDADE") {
+            "#FF6347"
+        } else {
+            "#FF0000"
+        }
+
+        tvClassificacao.setTextColor(Color.parseColor(corClassificacao))
 
     }
 }
