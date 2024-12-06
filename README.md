@@ -1,8 +1,29 @@
+### -------------------------------------------------[EN]-------------------------------------------------
+# BMI Calculator
+This project is a native Android application developed in **Kotlin**, which calculates and displays the Body Mass Index (BMI) in a practical and intuitive way.  
+The user enters their **weight** and **height** on the home screen, and the application returns the **BMI value** and its respective **classification** (for example, "Normal Weight", "Overweight ", etc.).
+
+## :camera_flash: Screenshots
+<!-- You can add more screenshots here if you like -->
+<img src="https://github.com/user-attachments/assets/e74f24c1-774a-404e-9487-58a4db6edec0" width = 260/>
+<img src="https://github.com/user-attachments/assets/a3f66596-e715-4251-801a-32165d0d9207" width = 260/>
+
+## Technologies
+The project makes use of several Android tools and components to ensure a fluid experience:  
+
+- **Activity and Intent**  
+- **Interface Components**:  
+  - LinearLayout and ConstraintLayout  
+  - ImageView, TextView, EditText and Button  
+- **Snackbars** for quick user messages
+#
+
+### -------------------------------------------------[POR]-------------------------------------------------
 # Calculadora IMC
 Este projeto é um aplicativo Android nativo desenvolvido em **Kotlin**, que calcula e exibe o Índice de Massa Corporal (IMC) de forma prática e intuitiva.  
 O usuário insere seu **peso** e **altura** na tela inicial, e o aplicativo retorna o **valor do IMC** e sua respectiva **classificação** (por exemplo, "Peso Normal", "Sobrepeso", etc.).
 
-## :camera_flash: Screenshots
+## :camera_flash: Capturas de Tela
 <!-- You can add more screenshots here if you like -->
 <img src="https://github.com/user-attachments/assets/e74f24c1-774a-404e-9487-58a4db6edec0" width = 260/>
 <img src="https://github.com/user-attachments/assets/a3f66596-e715-4251-801a-32165d0d9207" width = 260/>
